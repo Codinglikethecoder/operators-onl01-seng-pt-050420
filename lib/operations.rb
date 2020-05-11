@@ -1,9 +1,9 @@
-speed = 40
-if speed > 60
+speed = 90
+if speed < 60 or speed > 60
     "unsafe"
-  else
-    "safe"
-end
+else
+  "safe"
+  end
 
 
 
